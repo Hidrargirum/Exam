@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+
+*, html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.no-padding {
+	padding-left: 0 !important;
+}
+
+span.bold {
+	font-weight: 700;
+}
+
+span.italic {
+	font-style: italic;
+}
+
+body {
+ font-family: 'PT Sans', sans-serif;
+}
+
+.header-block {
+	background-image: url('../img/head_bg.png');
+	background-size: cover;
+	padding-bottom: 493px;
+}
+
+header {
+	padding: 0 15px;
+	margin-bottom: 286px;
+}
+
+header .logo, header nav, header nav ul li {
+	display: inline-block;
+}
+
+header .logo {
+	margin-top: 36px;
+}
+
+header button.navbar-toggle {
+	margin-top: 50px;
+}
+
+header nav {
+	float: right;
+	margin-top: 58px;
+}
+
+header nav ul li a {
+	font-family: "proxima-nova", sans-serif;
+	color: #f6f6f6;
+    font-size: 24px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+	color: #fff;
+}
+
+.header-block {
+	color:  #f6f6f6;
+}
+
+.header-block .header-block_content h1 {
+	text-transform: uppercase;
+	font-size: 73px;
+	 font-family: "Proxima Nova", sans-serif;
+	 font-weight: 700;
+}
+
+.header-block .header-block_content p {
+	font-family: "PTSans", sans-serif;
+	font-style: italic;
+	font-size: 30px;
+}
+
+
+.about-us {
+	background-color: #EBEBEB;
+	padding-top: 125px;
+}
+
+.about-us h6 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.about-us .first-block {
+	margin-bottom: 120px;
+}
+
+.about-us .col-md-6 {
+	height: 385px;
+	text-align: center;
+	padding-left: 0;
+	padding-top: 100px;
+}
+
+.about-us .services {
+	background: url(../img/unsplash.jpg);
+	background-repeat: no-repeat;
+	height: 770px;
+	padding-top: 100px;
+}
+
+.about-us .gray-bg {
+	background-color: #DBDBDB;
+}
+
+
+.about-us .hover-block {
+	margin:0px 15px;
+	 color:#FFF;
+	 position:absolute;
+	 top:0;
+	 bottom:0;
+	 left:0;
+	 right:0;
+	 opacity:0;
+	 padding-top: 80px;
+}
+
+.about-us .hover-block:hover {
+	opacity: 1;
+}
+
+.about-us .about-us-text {
+	font-size: 20px;
+	font-family: "PTSans", sans-serif;
+	color: #665f60;
+	padding-top: 69px;
+}
+
+.about-us .about-us-text a {
+	border: 1px solid #665f60;
+	color: #665f60;
+	font-style: italic;
+	padding: 13px 39px;
+}
+
+.about-us .for-link {
+	padding-top: 20px;
+}
+
+
+
+
+
